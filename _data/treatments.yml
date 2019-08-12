@@ -1,23 +1,71 @@
-- icon: icon-user-md
-  title: Invisible braces
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+- icon: icon-csap
+  title: crypto seed accountancy plateform
+  description:
+    "": CSAP is a fantastic way to bootstrap your startup
+    en: CSAP is great way to have your team start before finance
+    fr: CSAP est un moyen d'avoir votre équipe opérationelle avant tout investissement
+  link: http://csap.ml
 
-- icon: icon-diamond
-  title: Cosmetic Dentistry
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+- icon: icon-dode_678851
+  title: alternative banking 
+  description:
+    "": Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+    fr: un banque distribuée locale, avec une gouvernance en coopérative
+    en: a local distributed bank, with a cooperative governance
+  link: http://duckduckgo.com/?q=GC-Bank+Alternative+Banking
 
-- icon: icon-flask
-  title: Stain removal
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+- icon: icon-crowd
+  title: crowd-funding
+  description:
+    "": Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+    en: untapped resources in the crowd, you believe in your project, others do too, get your community funds you.
+    fr: "un réservoir infini de ressources: votre communauté"
+  link: http://duckduckgo.com/?q=GC-Bank+crowd-funding
 
-- icon: icon-globe
-  title: Dentures
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+- icon: icon-coral
+  title: micro-financing
+  description:
+    "": Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    en: very low cost banking with near-zero transactions fee allow a full range of new product, micro financing is rendered possible with our no minimum fee option.
+    fr: par de minimum de frais de transactions ce qui permet des micro transactions, permetant la construction de systèmes autonomes
+  link: http://duckduckgo.com/?q=GC-Bank+micro-financing
+   
+   
 
-- icon: icon-ambulance
-  title: Emergency Calls
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+- icon: icon-1382344
+  title: crypto-currencies
+  description:
+    "": Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+    en: "visit our coins forge, we have all kind of crypto currency to respond to any particular needs"
+    fr: "venez visiter notre forge pour crypto-monnaies, nous avons une diversité de pièces pour vos projets"
+  link: http://duckduckgo.com/?q=GC-Bank+coin-forge
 
-- icon: icon-bed
-  title: Sedation
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+- icon: icon-leaf
+  title: eco-social blockchain
+  description:
+    "": Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+    en: BlockRings™ are eco friendly blockchains without mining where security is delegated to a permissioned social layer"
+    fr: BlockRings™ sont des bloc-chaînes sans mecanisme de minage, en effet la securité est assurée grâce à une couche permissionnée sociale"
+  link: http://duckduckgo.com/?q=GC-Bank+coin-forge
+
+- icon: icon-safe
+  title: security
+  description:
+    "": Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+    en: "Blockchains are transforming the sécurity industry à it truely allow true immutability without the need of a third party trust."
+    fr: "Les blockchaines permettent une sécurisation sans point intermédiare de confiance, et c'est une première dans le monde informatique."
+  link: http://duckduckgo.com/?q=GC-Bank+security+ledger
+
+- icon: icon-palette-with-pb
+  title: art share ownership
+  description:
+    en: "Transforming society by owning art this is now possible for everyone with our share ownership"
+    fr: "Transformer la societé avec l'achat d'oeuvre d'art, c'est maintenant possible pour tous avec la propriété partagée"
+  link: http://duckduckgo.com/?q=GC-Bank+Art+market
+    
+- icon: icon-puzzle
+  title: trusted discovery
+  description:
+   en: "Knowledge Economy is multiplicative, and distributed ledger allow it to flowrish, our blockRing™ technology give a context to the semantic web, and our HuRing™ give the necessary trust to make is valuable"
+   fr: "L'économie de la connaissance est multiplicative et les cahiers comptables distribuésr permettent son expension"
+  link: http://duckduckgo.com/?q=GC-Bank+Trusted+Discovery

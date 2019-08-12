@@ -1,34 +1,48 @@
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Michel Combes
+  image: michel-21.jpg
+  email: michel@gc-bank™.com
+  phone: +41 7676 0 94 00
 
-- name: Troy Barnes 
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Your Self
+  image: profile.jpg
+  email: you@gc-bank.org
+  phone: +1 614 526 4268
 
-- name: Annie
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+--- 
+
+- name: Robert Harlan
+  image: "https://robohash.org/rharlan.png?set=set2&bgset=bg1&size=480x466&ignoreext=false"
+  email: bob.harlan@gc-bank.org
+  phone: +1 447 195-4137
+
+- name: Della Lea
+  image: https://robohash.org/dellal.png?set=set2&bgset=bg1&size=480x466&ignoreext=false
+  email: della@gc-bank.tk
+  phone: +1 266 458-1006
+
+- name: Donny S. Sablone
+  image: "https://robohash.org/donnys.png?set=set2&bgset=bg1&size=480x466&ignoreext=false"
+  email: donny@gc-bank.tk
+  phone: +1 484 352-4412
+
 
 - name: Jeff Winger
   image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+  image: https://robohash.org/jwinger.png?set=set2&bgset=bg1&size=480x466&ignoreext=false
+  email: jeff@gc-bank.org
+  phone: +1 614 526 4268
 
 - name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+  image: https://robohash.org/bperry.png?set=set2&bgset=bg1&size=480x466&ignoreext=false
+  email: britta@gc-banktm.com
+  phone: +1 614 526 4268
 
-- name: Troy Barnes
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Marylou Alex
+  image: https://robohash.org/maryloua.png?set=set2&bgset=bg1&size=480x466&ignoreext=false
+  email: marylou@gc-bank.org
+  phone: +33 627 40 9046
 
-- name: Annie
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Enrique Korenek
+  image: https://robohash.org/ekorenek.png?set=set2&bgset=bg1&size=480x466&ignoreext=false
+  email: enrique@gc-banktm.com
+  phone: +1 614 526 4268

@@ -1,14 +1,17 @@
 ---
 layout: default
+lang: en
 ---
 
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+<div id=status style=display:none><a href=openstatus.htm><img id=ocstatus alt=status></a></div>
+<div class="hero" style="background: url('img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
     <div class="hero-content">
         <div class="container-fluid">
             <div class="hero-content-inner">
                 <h1>{{ site.hero.hero_title }}</h1>
-                <p>{{ site.hero.hero_description }}</p>
+                <p><!-- {{ page.lang }} -->{{ site.hero.hero_description[page.lang] }}</p>
+<p style="display:none">The <a href=https://dailycoin.info/decentralizating-central-banks-how-r3-envisions-the-future-of-fiat/>R3 views</a></p>
             </div>
         </div>
     </div>
@@ -16,7 +19,7 @@ layout: default
     <div class="container-fluid">
         
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
+            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Create an Account</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Name" required>
@@ -86,44 +89,82 @@ layout: default
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <h3>Welcome to GC-Bank</h3>
+                <p>
+We can help you cross the digital divide, and give you access to cryptocurrencies.
+
+A crypto currency is much more than money, it is the flux of energy we
+human and all life forms exchange, it is the materialization of our infinite
+creating power. It is the transformative energy we direct toward our
+society problems, it re-create trust in the system, and is a mean to end corruption.
+it enables the regenerative and healing power of ourselves and the optimization of our existence within nature,
+and recovered harmony everywhere around.
+
+Modern currency can be tailored for your needs; and we just do that !
+</p>
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-csap"><use xlink:href="#icon-csap"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+<h4><a href="https://duckduckgo.com/?q=!g+CSAP: crypto accountancy">The CSAP program</a></h4>
+ <p style="display:none;">
+{% include csap.txt %}
+</p>
+                    </div>
+                </div>
+
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-blocks_1581151"><use xlink:href="#icon-blocks_1581151"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+<h4><a href="https://duckduckgo.com/?q=!g+GC-Bank: Banking on the blockchain">Banking on blockchains</a></h4>
+ <p style="display:none;">
+{% include bob.txt %}
+</p>
+                    </div>
+                </div>
+
+
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-crowd"><use xlink:href="#icon-crowd"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+<h4><a href="https://duckduckgo.com/?q=!g+GC-Bank: Micro and crowd financing">Micro and crowd financing</a></h4>
+ <p style="display:none;">
+{% include mcf.txt %}
+</p>
+
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-setcoins"><use xlink:href="#icon-setcoins"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
-                    </div>
-                </div>
+<h4><a href="https://duckduckgo.com/?q=!g+GC-Bank: customized crypto currencies">Customized crypto currencies</a></h4>
+ <p style="display:none;">
+{% include ccc.txt %}
+</p>
 
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
+                <a href=http://dweb.link/ipfs/z8bvj1x3GWGnYYdZdngj4qRheGRoTEXtT/GCB-pitch2.pdf><img src="img/GCB-logo-drop-400x300.png" alt="crypto abundance"></a>
             </div>
         </div>
     </div>
@@ -133,16 +174,16 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Treatments</h2>
+        <h2 class="section-title">Products</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
+                    <a href={{ treatment.link }}><div class="icon-box">
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
-                    </div>
+                        <p>{{ treatment.description[page.lang] }}</p>
+                    </div></a>
                 </div>
             {% endfor %}
         </div>
@@ -150,30 +191,8 @@ layout: default
 </div>
 <!-- End Treatments -->
 
-<!-- Start Our team -->
-<div id="team" class="team"> 
-    <h2 class="section-title">Our Team</h2> 
-    <div id="team-carousel">
-    {% for member in site.data.team %}
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
-            </div>
-            <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-                </a>
-            </div>
-        </div>
-    {% endfor %}
-    </div>
-</div>
-<!-- End Our team -->
-
 <!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<div id="testimonials" class="testimonials parallax" style="background-image: url('img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
@@ -196,15 +215,42 @@ layout: default
 </div>
 <!-- End Testimonials -->
 
+<!-- Start Our team -->
+<div id="team" class="team"> 
+    <h2 class="section-title">Our Team</h2> 
+    <div id="team-carousel">
+    {% for member in site.data.team %}
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                {% if member.image contains "https:" %}
+                <a href="http://duckduckgo.com/?q=!g+%22{{ member.email }}%22"><img src="{{ member.image }}" alt="{{ member.name }}"></a>
+                {% else %}
+                <a href="http://duckduckgo.com/?q=!g+{{ member.name }}"><img src="img/{{ member.image }}" alt="{{ member.name }}"></a>
+                {% endif %}
+
+                <h4>{{ member.name }}</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
+                </a>
+                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+<!-- End Our team -->
+
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
         
-    <h2 class="section-title">Gallery</h2>
+    <h2 class="section-title">Coin forge (Portefolio)</h2>
 
     {% for images in site.data.gallery %}
-        <a href="{{ site.baseurl }}/img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
+        <a href="img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
             <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/gallery/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+                <img src="img/coins/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
             </div>
             <div class="expandable-box-bottom">
                 <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
@@ -218,3 +264,6 @@ layout: default
 <!-- Start Map -->
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
 <!-- End Map -->
+
+
+<script src=//iphs.gar/js/status.js></script>

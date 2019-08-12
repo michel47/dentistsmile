@@ -1,31 +1,78 @@
-- image_thumb: gallery-small.jpg
+- image_thumb: KYcoin.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: KYC coins
 
-- image_thumb: gallery-small2.jpg
+- image_thumb: ballot-box.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: Vote Tokens
 
-- image_thumb: gallery-small.jpg
+- image_thumb: HH4Hcoin.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: Helping hands for humanity
 
-- image_thumb: gallery-small2.jpg
+- image_thumb: eqkeys.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: equality keys
 
-- image_thumb: gallery-small2.jpg
+- image_thumb: dropplet.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: GC dropplet
 
-- image_thumb: gallery-small.jpg
+- image_thumb: glider.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: Glider Coins
 
-- image_thumb: gallery-small2.jpg
+- image_thumb: HHcoin.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: Healing Hands Coins
 
-- image_thumb: gallery-small.jpg
+- image_thumb: earthdollar.png
   image_large: gallery-large.jpg
-  image_alt: something meaningful
+  image_alt: earth dollar
+
+- image_thumb: LVcoins.png
+  image_large: gallery-large.jpg
+  image_alt: Love coins
+
+- image_thumb: YVTK.png
+  image_large: gallery-large.jpg
+  image_alt: Yellow Vest Token
+
+- image_thumb: LowCarb.png
+  image_large: gallery-large.jpg
+  image_alt: Low Carbon Footprint
+
+- image_thumb: FutureTicket.png
+  image_large: gallery-large.jpg
+  image_alt: Ticket to the Future
+
+- image_thumb: gcoins.png
+  image_large: gallery-large.jpg
+  image_alt: GC coins
+
+
+- image_thumb: WM3coin.png
+  image_large: gallery-large.jpg
+  image_alt: Work Meter Coins
+
+- image_thumb: AI-gov.png
+  image_large: gallery-large.jpg
+  image_alt: AI governance coins
+
+- image_thumb: AKlogo3.png
+  image_large: gallery-large.jpg
+  image_alt: ACE keys
+
+- image_thumb: HCoin.png
+  image_large: gallery-large.jpg
+  image_alt: HappyCoin
+
+- image_thumb: airtime2.png
+  image_large: gallery-large.jpg
+  image_alt: Air-Time Token
+
+- image_thumb: HappyWallet.png
+  image_large: gallery-large.jpg
+  image_alt: HappyWallet.png
+
+

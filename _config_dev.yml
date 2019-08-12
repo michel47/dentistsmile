@@ -1,0 +1,82 @@
+# Site settings
+port: 4444
+
+title:
+ en: GC-Bank℠ | GC-Bank Service Mark
+ fr: GC-Bank℠ | Nos Services
+description:
+ en: "GC-Bank: A responsive Bank for the new paradigm"
+ fr: "GC-Bank: La banque de l'abondance responsable"
+baselang:
+ en: "" # the subpath of your site, e.g. /blog
+ fr: "fr" # the subpath of your site, e.g. /blog
+baseurl: /Tommy/web/gc-bank.org
+url: "http://127.0.0.1:8088" # the name of your domain
+logo_url: img/GCB-logo-drop-banner.png
+
+# Hero
+# see [^1](https://webdesignviews.com/hero-areas-in-website-design/)
+hero: 
+    hero_img: cloud-xch.jpg
+    hero_img: perma.jpg
+    hero_title: GC-Bank
+    hero_description:
+      en: "Decentralizing Central Banks"
+      fr: "Décentralise les banques centrales"
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: "+41 7676 0 9400"
+    emergency: "+1 614 526 6268"
+    email: contact@gc-bank.tk
+    address: Chiesaz, 8, <br> Ecublens - Switzerland
+
+# Opening hours
+monday_friday: 7:00 – 9:00, 15:00 – 21:00
+saturday: 7:00 – 10:00
+sunday: 7:00 – 10:00
+
+# Testimonials
+testimonials:
+    testimonials_img: cloud-xch.jpg
+#    testimonials_img: grey-laptop.jpg
+#    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Chiesaz, 8; Ecublens, Switzerland
+    address_details: favicon.png
+
+# Social settings
+facebook: http://facebook.com/mgcombes
+twitter: http://twitter.com/mgcombes
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:michel_at_work?userinfo
+feed: yes
+
+# Footer
+copyright: 🄯 2019 GC-Bank℠ - All rights shared
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    doit.sh,
+    _site,
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics: 
+google_verification:

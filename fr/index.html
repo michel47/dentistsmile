@@ -1,0 +1,262 @@
+---
+layout: fr-default
+lang: fr
+---
+
+<!-- Start Hero -->
+<div class="hero" style="background: url('../img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+    <div class="hero-content">
+        <div class="container-fluid">
+            <div class="hero-content-inner">
+                <h1>{{ site.hero.hero_title }}</h1>
+                <p>{{ site.hero.hero_description[page.lang] }}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Ouvrir un compte</h3>
+            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+                <div class="form-field">
+                    <input name="name" type="text" placeholder="Nom" required>
+                </div>
+                <div class="form-field">
+                    <input name="phone" type="tel" placeholder="Téléphone" required>
+                </div>
+                <div class="form-field">
+                    <input name="email" type="email" placeholder="Email" required>
+                </div>
+                <div class="form-field">
+                    <textarea name="comments" placeholder="Note" required></textarea>
+                </div>
+                <input type="submit" class="btn btn-default" value="Envoi">
+            </form>
+        </div>
+
+    </div>
+</div>
+<!-- End Hero -->
+
+<!-- Start 3 columns -->
+<div class="three-shade-col">
+    <div class="col-sm-4">
+        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
+        <h3>Nos Contact</h3>
+        <ul>
+            {% if site.contact.phone %}<li><strong>Téléphone:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.emergency %}<li><strong>Support:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+        <h3>Heures d'ouvertures</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Lundi – Vendredi</td>
+                    <td>{{ site.monday_friday }}</td>
+                </tr>
+                <tr>
+                    <td>Samedi – Dimanche</td>
+                    <td>{{ site.saturday_sunday }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-4">
+        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
+        <h3>Adresse</h3>
+            <p>
+                {{ site.contact.address }}
+            </p>
+    </div>
+</div>
+<!-- End 3 columns -->
+
+<!-- Start About -->
+<div id="about" class="about">
+    <div class="container-fluid">
+        <h2 class="section-title">À propos</h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Bienvenue à GC-Bank</h3>
+                <p>
+Nous vous aidons à franchir le pas technologique vers des monnaies cryptographiques
+
+Une crypto-monnaie est bien plus qu'une monnaie classique, en effet
+elle représente un flux d'énergie que nous échangeons entre êtres vivants.
+
+<!-- it the materialization of our infinite
+creation power. It the transformative energy we direct toward our
+society problem it this end of corruption, the regenerative and healing
+power of ourselves and the optimization of our existence within nature,
+and recovered harmony with everything around.
+
+modern currency can be tailored for your needs,
+-->
+</p>
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-csap"><use xlink:href="#icon-csap"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+<h4><a href="https://duckduckgo.com/?q=!g+CSAP: crypto accountancy">Le Programme <b>CSAP</b> </a></h4>
+ <p style="display:none;">
+{% include csap.txt %}
+</p>
+                    </div>
+                </div>
+
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-blocks_1581151"><use xlink:href="#icon-blocks_1581151"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+<h4><a href="https://duckduckgo.com/?q=!g+GC-Bank: La banque sur la bloc-chaîne">La banque sur la bloc-chaîne</a></h4>
+ <p style="display:none;">
+{% include bob.txt %}
+</p>
+                    </div>
+                </div>
+
+
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-crowd"><use xlink:href="#icon-crowd"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+<h4><a href="https://duckduckgo.com/?q=!g+GC-Bank: Financement participatif et micro payements">financement participatif et micro payements</a></h4>
+ <p style="display:none;">
+{% include mcf.txt %}
+</p>
+
+                    </div>
+                </div>
+
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-setcoins"><use xlink:href="#icon-setcoins"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+<h4><a href="https://duckduckgo.com/?q=!g+GC-Bank: crypto monnaie sur mesure">monnaies cryptographiques sur mesures</a></h4>
+ <p style="display:none;">
+{% include ccc.txt %}
+</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <a href=http://dweb.link/ipfs/z8bvj1x3GWGnYYdZdngj4qRheGRoTEXtT/GCB-pitch2.pdf><img src="../img/GCB-logo-drop-400x300.png" alt="crypto abundance"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End About -->
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">Produits</h2>
+
+        <div class="row">
+            {% for treatment in site.data.treatments %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <h4>{{ treatment.title }}</h4>
+                        <p>{{ treatment.description[page.lang] }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
+
+<!-- Start Testimonials -->
+<div id="testimonials" class="testimonials parallax" style="background-image: url('../img/{{ site.testimonials.testimonials_img }}');">
+    <div class="overlay-container">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+            <div id="testimonial-carousel">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="testimonial-item">
+                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                        <blockquote>
+                            <p>{{ testimonial.description }}</p>
+                            <footer>
+                                {{ testimonial.name }}
+                                <small>{{ testimonial.title }}</small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Testimonials -->
+
+<!-- Start Our team -->
+<div id="team" class="team"> 
+    <h2 class="section-title">Our Team</h2> 
+    <div id="team-carousel">
+    {% for member in site.data.team %}
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                {% if member.image contains "http" %}
+                <img src="{{ member.image }}" alt="{{ member.name }}">
+                {% else %}
+                <img src="../img{{ member.image }}" alt="{{ member.name }}">
+                {% endif %}
+                <h4>{{ member.name }}</h4>
+            </div>
+            <div class="expandable-box-bottom">
+                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
+                </a>
+                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
+<!-- End Our team -->
+
+<!-- Start Gallery -->
+<div id="gallery" class="gallery">
+        
+    <h2 class="section-title">Coin forge (Portefolio)</h2>
+
+    {% for images in site.data.gallery %}
+        <a href="../img/gallery/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="../img/coins/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    {% endfor %}
+
+</div>
+<!-- End Gallery -->
+
+<!-- Start Map -->
+<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<!-- End Map -->

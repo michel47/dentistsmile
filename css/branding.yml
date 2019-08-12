@@ -1,0 +1,97 @@
+--- 
+# vim: nospell
+BRANDING:
+  fontfamily: 'TexGyreHeros'
+  fontfamily: 'Yanone Kaffeesatz'
+  fontfamily: 'Roboto Serif'
+  fontfamily: 'Merriweather'
+
+  foreground: '#001'
+  background: '#202D5D'
+  low_color: '#100a20' # purplish blue
+
+  high_color: '#fd0'
+  high_color: '#fd8'
+  high_color: '#008db9' # cyan-ish
+
+  bc1: '#fa861f' # orange
+  bc2: '#005325' # green
+  bc3: '#103180' # blue
+
+  bc1: '#005325' # green
+  bc2: '#222156' # dark grey
+  bc3: '#082470' # blue
+
+  bc2i: '#727173' # light grey
+
+  highlight: '#FF0000'
+  other: '#FFB71F'
+SUBSTI:
+  - ['font-family', 's/Yanone Kaffeesatz/{{fontfamily}}/']
+  - ['http.?', 's/family=Yanone\+Kaffeesatz/family={{fontfamily}}/']
+  - ['background-color', 's/#000;/#0F0;/']
+
+  # ------------------------------------------------
+
+  - ['border-.*', 's/#3dadb2;/#0ff;/'] # border
+  -
+    - background
+    - 's/#3dadb2;/#ffff01;/'
+    - 's/#44babf;/{{low_color}};/'
+  -
+    - color
+    - 's/#3dadb2;/#ffff01;/'
+    - 's/#40b4ba;/{{low_color}};/'
+    - 's/#44babf;/#ffff03;/'
+
+    - 's/#337ab7;/#ff0001;/' # a
+    - 's/#337ab7;/#ff0002;/' # a:focus
+    - 's/#fcf8e3;/#ff0003;/' # mark
+    - 's/#337ab7;/#ff0004;/' # text-primary
+    - 's/#286090;/#ff0005;/' # text-primary:hover
+    - 's/#3c763d;/#ff0006;/' # text-success
+    - 's/#2b542c;/#ff0007;/' # text-success:hover
+    - 's/#337ab7;/#ff0008;/' # bg-primary
+    - 's/#dff0d8;/#ff0009;/' # table-th
+
+  # ------------------------------------------------
+
+  -
+    - background
+    - 's/#000000;/{{background}};/' # black
+    - 's/#000305;/{{bc3}};/' # banner
+    - 's/#000406;/{{bc3}};/' # banner nav
+    - 's/#272822;/{{bc2}};/' # banner nav
+    - 's/#008db8;/{{bc2i}};/' # banner nav active
+    - 's/#f2f3f3;/{{high_color}};/' # background
+
+  - ['border-.*', 's/#008db8;/{{high_color}};/'] # border
+
+  -
+    - color
+    - 's/#000305;/{{low_color}};/' # foreground & banner
+    - 's/#008db7;/{{bc2}};/' # extras
+    - 's/#008db8;/{{high_color}};/' # active
+    - 's/#008DB8;/{{high_color}};/' # link and h1 banner
+
+    - 's/#000305;/{{bc3}};/' # h1 banner
+    - 's/#253c47;/{{bc2}};/' # featured h2
+    - 's/#333333;/{{bc2}};/' # entry-title's link
+    - 's/#333;/{{low_color}};/' # foreground
+    - 's/#444;/{{low_color}};/' # extra's link
+    - 's/#888;/#898;/' # comment-list
+    - 's/#000000;/#000001;/' # black
+    - 's/#fff;/white;/' # banner's link
+    #- 's/#C64350;/green;/' # about strong
+
+  - ['box-shadow', 's/#80d7ff;/#20a7ff;/'] # banner box shadow
+  - ['border-bottom', 's/#DDD;/#DED;/'] # hentry border
+
+  - ['background', 's/rgba(97,134,151,0.5);/rgba(97,135,151,0.5);/'] # selection
+  - ['background-color', 's/rgba\(209,229,242,0.4\);/rgba(160,200,240,0.4);/'] # featured !
+  - ['background-color', 's/#f3f2f4;/{{high_color}};/']
+  - ['background-color', 's/#f2f3f3;/{{high_color}};/']
+  - ['background-color' , 's/rgb\(238, 238, 238\);/{{high_color}};/'] # pre
+
+...
+

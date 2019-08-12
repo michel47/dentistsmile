@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="61px" viewBox="0 0 67 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="FLOW" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)" fill="#FFAF3C" fill-rule="nonzero" stroke="#FFFFFF">
+            <path d="M62.1795918,53.7931973 L65,53.7931973 L65,58.7931973 L0,58.7931973 L0,53.7931973 L2.67894783,53.7931973 L2.67894783,2.84217094e-14 L48.03476,2.84217094e-14 L48.03476,19.6897959 L62.1795918,19.6897959 L62.1795918,53.7931973 Z M7.69553612,53.790334 L43.0181717,53.790334 L43.0181717,4.97033395 L7.69553612,4.97033395 L7.69553612,53.790334 Z M48,53.79 L57.1784367,53.79 L57.1784367,24.69 L48,24.69 L48,53.79 Z" id="Combined-Shape-Copy-3"></path>
+            <polygon id="Line-4" transform="translate(25.848465, 25.494898) rotate(-45.000000) translate(-25.848465, -25.494898) " points="18.1017548 27.744898 18.1017548 23.244898 33.5951745 23.244898 33.5951745 27.744898"></polygon>
+            <polygon id="Line-4" transform="translate(25.469388, 25.637755) rotate(45.000000) translate(-25.469388, -25.637755) " points="17.4789916 27.8877551 17.4789916 23.3877551 33.4597839 23.3877551 33.4597839 27.8877551"></polygon>
+        </g>
+    </g>
+</svg>

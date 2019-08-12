@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
 <head>
+    <meta name="google-site-verification" content="1ItXSeJyM5UoeWuJOWNvqlal5Br7IieriJrPzPQh_s8" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,17 +10,17 @@
     <meta name="google-site-verification" content="{{ site.google_verification }}">
     {% endif %}
 
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
+    <title>{{ site.title[page.lang] }}</title>
+    <meta name="description" content="{{ site.description[page.lang] }}">
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baselang[page.lang] }}">
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic' rel='stylesheet' type='text/css'>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ "/favicon.png" | prepend: site.baseurl }}">
+    <link rel="shortcut icon" href="{{ "favicon.png" | prepend: site.baseurl }}">
 </head>

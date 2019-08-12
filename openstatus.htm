@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta charset=utf8>
+<style>
+body { margin-left: 0; }
+
+#layer {
+ display: none;
+ position: fixed; margin:0; padding:0;
+ background-color:black; color:white; content:"background-layer";
+ width:100%; height:100%;
+ opacity: 0.9;
+}
+.open, .close {
+  display: none;
+  position: fixed;
+  padding: 1em;
+  top: 20%;
+  width: 60%;
+  min-width: 540px;
+  left: 50%;
+  transform: translateX(-50%);;
+  border-radius: 2px;
+  box-shadow:2px 20px 10px rgba(0, 0, 0, 0.40);
+  
+}
+#content a:visited:before {
+   content:  "\2713 ";
+}
+
+.open {
+  text-align: center;
+  background-color: lightgreen;
+  opacity: .98;
+  z-index: 1;
+}
+.close {
+  display: block;
+  z-index: 2;
+  background-color: red;
+  opacity: 0.90;
+}
+
+@media print {
+     #main-content a[href]:after { " (" attr(href) ") "; }
+}
+</style>
+
+<body>
+<div id=layer></div>
+<div>
+<h1>Lorem Ipsum</h1>
+<h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
+<h5>"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</h5>
+
+
+<hr>
+
+<div id="Content">
+<div class="boxed"><div id="lipsum">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in tristique mauris. Integer iaculis ornare rutrum. Sed vitae mauris elementum, sagittis lacus sed, egestas risus. Fusce vestibulum vestibulum congue. Donec finibus arcu nisl, eget eleifend felis molestie ut. Sed luctus leo nibh, at tincidunt sem laoreet nec. Sed rhoncus sem in iaculis condimentum. Etiam iaculis imperdiet erat, vitae interdum ligula molestie et. Nulla convallis dignissim dignissim. Vivamus dictum ex purus, sit amet pellentesque lectus congue eu. Aenean consequat convallis egestas. Donec accumsan eu ante eu ornare. Sed vel sem quam. Donec accumsan elementum orci vel interdum. Ut ut dignissim felis, nec rhoncus mauris. Donec laoreet ex nibh, at viverra neque tempor a.</p>
+<p>In hac habitasse platea dictumst. Pellentesque efficitur volutpat nunc, quis dictum lacus accumsan quis. Duis a diam eget lorem placerat laoreet. Aenean consequat elit elit, quis accumsan sapien pellentesque nec. Vestibulum finibus sem risus, elementum elementum mi vulputate non. Vivamus tempus, ipsum ultrices aliquam posuere, ligula ipsum semper mi, luctus dictum lectus leo eget lorem. Aenean lacinia augue at leo vestibulum varius. Sed at tellus malesuada, porta velit vitae, posuere nisl. Duis tristique nulla urna, at rhoncus tortor fringilla eget. Donec quis tincidunt ligula. Integer eu dui in tortor rutrum rutrum.</p>
+<p>Ut eu velit urna. Aenean in semper justo. Phasellus arcu lectus, iaculis vel velit at, lobortis congue odio. Nunc condimentum diam scelerisque, semper nunc quis, viverra risus. Maecenas vulputate porta dolor et efficitur. Morbi ut est eleifend, tincidunt lorem ut, elementum elit. Quisque vitae enim vitae mauris pretium pulvinar.</p>
+<p>Sed molestie nulla vitae lectus scelerisque aliquam. Nam ultrices ut elit at dignissim. Nulla pharetra rutrum elit, et tincidunt lacus. Duis accumsan et justo quis commodo. Curabitur ac risus vel ex pellentesque vestibulum. Nam posuere ultricies nunc in mattis. Aliquam sit amet tempus mi. Integer tempor porttitor nulla, et porttitor dolor hendrerit a.</p>
+<p>Nulla blandit metus ipsum, sed tempor nulla imperdiet vitae. Sed scelerisque odio non risus vestibulum dignissim. Aenean metus neque, varius id justo at, pretium hendrerit dui. Donec quis elit vel libero venenatis fringilla. Curabitur pretium arcu a enim laoreet, sit amet suscipit lacus convallis. Nulla facilisi. In consectetur at libero eget venenatis. Nam pharetra felis at pharetra pulvinar.</p></div>
+<div id="generated">Generated 5 paragraphs, 363 words, 2456 bytes of <a href="https://www.lipsum.com/" title="Lorem Ipsum">Lorem Ipsum</a>
+</div>
+
+</div></div></div>
+
+</body>
+
+<div class=open>
+Hello good morning
+
+<br><b>We are open !</b>
+
+<br>How can we help you ?
+
+</div>
+
+<div class=close>
+
+ <center><b> We are closed </b></center>
+
+ <p>&#x2713; To respect human rhythm an nature capacity,
+ <br>&#x2713; to minimize our energy footprint 🍀
+ <br>we are open 2 hours in the morning and 6 hours in the evening.
+ (read more about our <a href=http://duckduckgo.com/?q=!g+eco+friendly+policy>eco-policy</a>
+
+ <br><b>Come back at the following times</b> :
+
+<pre>
+ Weekdays: 
+  morning 7 to 9am
+  evening 3pm to 21pm
+
+ Saturday: 7 to 10am
+ Sunday:   7 to 10am
+</pre>
+
+ <p>However GC-Bank is available whenever you need it,
+ this is why we are "distributed" and are active "on-demand"
+ and therefore you can "<a href=runlocally>start</a>" our own branch <i>at-home</i>
+and have you connected to our network in seconds.
+
+</div>
+
+<!--
+ see also: https://tr.humaxdigital.com/environmental-management/
+-->
+<script>
+// '/ipfs/Qmd2RP3mRXfeGmBC9d3qZEbmSF7kVo6YBLxuXEBxHErEuX'
+key='12D3KooWGt93fjhtqB62DhT9nCgJk6CNbUc4cu9oyi4Y2sjbzhCo'
+url='https://gateway.ipfs.io/ipns/'+key+'/log/status.txt'
+url='http://127.0.0.1:8080/ipns/'+key+'/log/status.txt'
+url='https://ipfs.blockringtm.ml/ipns/'+key+'/log/status.txt'
+fetch(url)
+.then(function(resp) {
+   status = resp.status
+   if (status = '200') {
+     resp.text()
+     .then(data => {
+       if (data == 'open') {
+         console.log(data);
+         document.getElementsByClassName('layer')[0].style.display = 'block';
+         document.getElementsByClassName('open')[0].style.display = 'block';
+         document.getElementsByClassName('close')[0].style.display = 'none';
+       } else if (data == 'closed') {
+         console.log(data);
+         document.getElementsByClassName('layer')[0].style.display = 'block';
+         document.getElementsByClassName('close')[0].style.display = 'block';
+       } else {
+         console.log('data: '+ data);
+         document.getElementsByClassName('open')[0].style.display = 'none';
+         document.getElementsByClassName('close')[0].style.display = 'none';
+       }
+     }
+     )
+   }
+})
+.catch( error => console.log(error) );
+</script>
