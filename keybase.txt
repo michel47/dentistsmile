@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/michel47
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gc-bank.org
+  * I am michel47 (https://keybase.io/michel47) on keybase.
+  * I have a public key with fingerprint 5C19 0E40 DE17 68D1 4F55  43F9 02BF B5E1 314C 4080
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101921e7402cb42edea4947164ef2f9723a42f409106bc62ec0438d31d685f83c6e0a",
+      "fingerprint": "5c190e40de1768d14f5543f902bfb5e1314c4080",
+      "host": "keybase.io",
+      "key_id": "02bfb5e1314c4080",
+      "kid": "0101921e7402cb42edea4947164ef2f9723a42f409106bc62ec0438d31d685f83c6e0a",
+      "uid": "ae99be819174b7a25ddf4402bac30f19",
+      "username": "michel47"
+    },
+    "merkle_root": {
+      "ctime": 1597533092,
+      "hash_meta": "b6b10bd30e7c5354a538f30723ebc8ed538b1e0d082e4dc5f6a78cf41ef0d15a",
+      "seqno": 17290810
+    },
+    "revoke": {
+      "sig_ids": [
+        "62baf98ef40ba1ac7142239eab59634604c48f518ce0724a2ad9bc9e7b23698e0f"
+      ]
+    },
+    "service": {
+      "hostname": "gc-bank.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1597533126,
+  "expire_in": 157680000,
+  "prev": "a8fc0dfcd6dc0fd421a4e14cd213efdac48e84d6435d75c7762222723b41f6bf",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMPVAnicrVN7UBVVHL6gZDI1AiMaZamrZQrqObtnX0gT+QhNyFco19dtz2O564V7
+YXcvyCBK44SP0ZoockzUAtOpmSRFwrKGNLR8TQ6D6OT4mkbJNJlJzEgHOms2TdO/
+nX92ztnv933f7zu/0/poP198TGxL02WYnVkZc/xQNOoLaKEj5QKO0DIhvVwIsfsf
+VkCZ4wZCFhXSBQAB1EXIVAREgpHIKDOQjlSoIGaKpq6KkoFEEwEdAgUTRWQEIEmj
+EqSKJpuaRBQGDCFNMK1wPrOLbCvsclqZQB0wBCiDqqJRiExZRpKpAxGbWGZQgogg
+oAFeGIw4XgU3hw2HTbAi/IxvAn/Z+y/+f/YdvU9nMF3HTIM6VBFWDVGm1EScGhtE
+AibUPaDD7LBRyDi60CJBVoBUoSJNKGR2qIAF7EjE9cIlruVBoKyrsiQBXeQNGk4w
+UMhcg1diBUOAqQSYSmRJRoYsaaYEuFuGicYo32LIAAWayBAlsqkYqkZMBJkJKJQ9
+ww4rDke4girqQIOAW7BZSSTEPHXHyue5OUL6IkHh3k1dYzwCbECDqBCJoqQzA8u6
+IiEF8EA1U4YaYVweGaJBdUx0pmJRUngdMIUlFZ6aXWKR++TeRT0IIJ+Mx0Y4NCFi
+53NHRXbEjZBIAf8RdN0iJ93LxS0r8pClDAcecASwFaZ8SnhFCbMdKxLmXXDkvyOD
+opImsOVFls0CloeQ+QABvjwdVuLdlWYSQE1CFUqASZEIDcT4fFARSsykBu+LaYgq
+SJKpKhNVVUS+eMQYQVPB5j8ZIm7TyOeUPLew4UZtJlQcOri4vy8m3vdQXKz3enzx
+AxP+flMpGxJ8W0b0xm/Ibn9155m3Vi2aMfPe/G5nW0lD8M1ifx2wun/t8t0c7T99
+DU4/UbzsQ5JnfNHd2Deyc1HJyJv1kzMarq8bdPH8+dadZ+6kJk/eE9j/ibvvg1Wf
+L72ddP7utv2jcjem4XXxM+e/nV3/4lcnnYyqA9e32n3Nx+tf75ti7R7U1TH04JjX
+mtf0fJw6Pqk5cbqfJn1bOqS6fNT3J2vaM4M1vVmt8zvyNq29QXcMa7mV2DPolfC2
+joS6tpVO79Jzu+fejn0i2vLDlsJlVZV1T+Zuv7Q+Z9exBWPHbV5ypXNixtmpO+aB
+yWXLv64+vFi4F9eUntae0BV6OWXWb3v9vW/cXnz1uYa+gxnrM4/kZi5tejgPJiee
+8l/58kJ9RuofPaXvXa8a3rp1Ye254v7POAs6qjY/7g5vyzpVKO5M7tyEUwcknesq
+a7swZGzervhq/4GbB2r72o7Xtr9e3bi9+qlNpdFP1x4ta4npUfrRxtXfxU4LrJnQ
+LiTeObQkOmnqytqNl5/Njln9/O6+DYOdnBt4S8/hAmvBpcfUs2P2hH9Wh7m3JkWf
+juuBEy99FEgrb6x5N+ezY50r5tzovlgRbF8ZvlbhzD2R8s1Ps3J++f2dSvvMjIXd
+88pOXE4pnX2ExOWuB8UDBttZ9+p0f+VLTYlXH9k3LiuzeUrNiL29Q0+bDUcHyi9M
+fT922gp73Zy7wo9XRicf60Sz/wQ45gRs
+=uFMJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/michel47
+
+==================================================================
+
